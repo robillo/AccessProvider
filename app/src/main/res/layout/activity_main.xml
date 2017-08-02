@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.robillo.accessprovider.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW ALL CONTACTS"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:background="?attr/selectableItemBackground"
+        tools:ignore="HardcodedText"
+        android:id="@+id/show"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-smallcaps"
+        tools:ignore="HardcodedText"
+        android:id="@+id/id_delete"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE BY ID"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:background="?attr/selectableItemBackground"
+        tools:ignore="HardcodedText"
+        android:id="@+id/delete"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-smallcaps"
+        tools:ignore="HardcodedText"
+        android:id="@+id/id"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND BY ID"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:background="?attr/selectableItemBackground"
+        tools:ignore="HardcodedText"
+        android:id="@+id/findid"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-smallcaps"
+        tools:ignore="HardcodedText"
+        android:id="@+id/name"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD NAME"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:background="?attr/selectableItemBackground"
+        tools:ignore="HardcodedText"
+        android:id="@+id/addname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="RESULTS GO HERE"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
