@@ -1,7 +1,7 @@
 package com.robillo.accessprovider;
 
-import android.support.v4.app.LoaderManager;
 import android.content.ContentResolver;
+import android.support.v4.app.LoaderManager;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.net.Uri;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         nameAdd = (EditText) findViewById(R.id.name_add);
         results = (TextView) findViewById(R.id.results);
 
-        getSupportLoaderManager().initLoader(0, null, this);
+//        getSupportLoaderManager().initLoader(0, null, this);
 
         show.setOnClickListener(new View.OnClickListener() {
             @Override
